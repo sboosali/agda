@@ -1,0 +1,9 @@
+https://people.inf.elte.hu/divip/AgdaTutorial/Index.html#general-information
+
+http://wiki.portal.chalmers.se/agda/pmwiki.php?n=Main.AgdaVsCoq
+http://stackoverflow.com/questions/9472488/differences-between-agda-and-idris
+
+$ cabal install agda
+$ git clone https://github.com/agda/agda-stdlib.git ~/Library/Agda
+$ alias agda='agda --include-path="$HOME/Library/Agda/src" --include-path="."'
+$ agda -I Mixfix.agda
